@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    dd("Hello");
+    dd("Hello, stage branch");
     return view('welcome');
 });
